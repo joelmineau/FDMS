@@ -5994,7 +5994,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 
 .blogs-4 .card {
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .team-1 .card .content {
