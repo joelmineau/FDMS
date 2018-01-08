@@ -3051,9 +3051,9 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25em;
-  line-height: 1.55em;
-  margin-bottom: 15px;
+  font-size: 1.15em;
+  line-height: 1.35em;
+  margin-bottom: 12px;
 }
 
 h6, .h6 {
@@ -3097,7 +3097,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999999;
+  color: #555555;
 }
 
 .text-warning {
@@ -8377,4 +8377,18 @@ select.selectpicker {
   .main.main-raised .container {
     width: 920px;
   }
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
