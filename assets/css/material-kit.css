@@ -187,8 +187,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: relative;
   padding: 12px 30px;
   margin: 10px 1px;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0;
   will-change: box-shadow, transform;
@@ -2359,8 +2359,8 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   color: inherit;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 13px;
   text-transform: uppercase;
   border-radius: 3px;
 }
