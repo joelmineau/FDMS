@@ -46,7 +46,7 @@ blockquote p {
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5em;
 }
 
@@ -55,7 +55,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
 }
 
 a {
-  color: #9c27b0;
+  color: #000000;
 }
 a:hover, a:focus {
   color: #89229b;
@@ -1038,6 +1038,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .btn.btn-round,
 .navbar .navbar-nav > li > a.btn.btn-round {
   border-radius: 30px;
+  margin: 3px;
 }
 .btn:not(.btn-just-icon):not(.btn-fab) .fa,
 .navbar .navbar-nav > li > a.btn:not(.btn-just-icon):not(.btn-fab) .fa {
@@ -2331,6 +2332,13 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   border-radius: 3px;
   padding: 10px 0;
 }
+
+.navbar .navbar-right {
+  position: relative;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+
 .navbar .navbar-brand {
   position: relative;
   height: 50px;
@@ -2394,7 +2402,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   width: 40px;
 }
 .navbar .navbar-nav .caret {
-  margin-top: -3px;
+  margin-top: -2px;
 }
 .navbar .navbar-toggle {
   border: 0;
@@ -3031,8 +3039,8 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 }
 
 h1, .h1 {
-  font-size: 3.8em;
-  line-height: 1.15em;
+  font-size: 2.6em;
+  color: #ffffff;
 }
 
 h2, .h2 {
@@ -3086,8 +3094,9 @@ h6, .h6 {
 .footer-big h4 a,
 .media .media-heading,
 .media .media-heading a {
-  color: #3C4858;
+  color: #555555;
   text-decoration: none;
+  font-weight: 700;
 }
 
 h2.title {
@@ -3098,10 +3107,32 @@ h2.title {
 .card-description,
 .footer-big p {
   color: #555555;
+  font-weight: 400;
 }
 
 .text-warning {
   color: #ff9800;
+}
+
+.text-white {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.title-white {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.title-dark {
+  color: #555555;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.text-dark {
+  color: #555555;
+  font-weight: 400;
 }
 
 .text-primary {
@@ -3310,6 +3341,11 @@ h2.title {
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
+
+.card .blog-tags {
+  float: right;
+}
+
 .card .card-height-indicator {
   margin-top: 100%;
 }
@@ -3645,16 +3681,16 @@ h2.title {
 }
 .card-profile .card-avatar,
 .card-testimonial .card-avatar {
-  max-width: 130px;
-  max-height: 130px;
-  margin: -50px auto 0;
+  max-width: 150px;
+  max-height: 150px;
+  margin: -30px auto 0;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 .card-profile .card-avatar + .card-content,
 .card-testimonial .card-avatar + .card-content {
-  margin-top: 15px;
+  margin-top: 0px;
 }
 .card-profile.card-plain .card-avatar,
 .card-testimonial.card-plain .card-avatar {
@@ -5586,16 +5622,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .section-info {
-  background: #b2ebf2;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(60deg, #b2ebf2, #4dd0e1);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(60deg, #b2ebf2, #4dd0e1);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(60deg, #b2ebf2, #4dd0e1);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(60deg, #b2ebf2, #4dd0e1);
-  /* Standard syntax */
+  background: #FAFAFA;
 }
 
 .section-success {
@@ -5612,16 +5639,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .section-warning {
-  background: #ffe0b2;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(60deg, #ffe0b2, #ffb74d);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(60deg, #ffe0b2, #ffb74d);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(60deg, #ffe0b2, #ffb74d);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(60deg, #ffe0b2, #ffb74d);
-  /* Standard syntax */
+  background: #222222;
 }
 
 .section-danger {
@@ -5675,7 +5693,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 .section-image {
   background-color: #343434;
   background-size: 200% 240%;
-  background: #232323;
+  background: #ededed;
   background: -moz-radial-gradient(center, ellipse cover, #585858 0%, #232323 100%);
   /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #585858), color-stop(100%, #232323));
