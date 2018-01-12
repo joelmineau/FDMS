@@ -2413,7 +2413,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .navbar .navbar-toggle .icon-bar {
   background-color: inherit;
   border: 1px solid;
-  color: #FFFFFF;
+  color: #000000;
 }
 .navbar .navbar-default .navbar-toggle,
 .navbar .navbar-inverse .navbar-toggle {
