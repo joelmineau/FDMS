@@ -5776,7 +5776,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .page-header {
-  height: 100vh;
+  height: 70%;
   background-position: center center;
   background-size: cover;
   margin: 0;
@@ -5815,7 +5815,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
   content: "";
 }
 .header-filter::before {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .header-filter .container {
   z-index: 2;
