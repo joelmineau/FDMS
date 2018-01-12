@@ -5741,13 +5741,13 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .section-image {
-  height: 100%;
+  height: 90%;
 }
 .section-image:after {
   position: absolute;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: block;
   left: 0;
   top: 0;
@@ -5775,7 +5775,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .page-header {
-  height: 70%;
+  height: 100%;
   background-position: center center;
   background-size: cover;
   margin: 0;
