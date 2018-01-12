@@ -3059,9 +3059,10 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.15em;
-  line-height: 1.35em;
+  font-size: 1.10em;
+  line-height: 1.30em;
   margin-bottom: 12px;
+  font-weight: 400;
 }
 
 h6, .h6 {
@@ -3116,7 +3117,6 @@ h2.title {
 
 .text-white {
   color: #ffffff;
-  font-weight: 400;
 }
 
 .title-white {
@@ -3132,7 +3132,6 @@ h2.title {
 
 .text-dark {
   color: #555555;
-  font-weight: 400;
 }
 
 .text-primary {
@@ -3344,6 +3343,7 @@ h2.title {
 
 .card .blog-tags {
   float: right;
+  padding-top: 10px;
 }
 
 .card .card-height-indicator {
@@ -5742,6 +5742,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 
 .section-image {
   position: relative;
+  height: 100%;
 }
 .section-image:after {
   position: absolute;

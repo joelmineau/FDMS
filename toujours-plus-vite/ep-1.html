@@ -41,7 +41,19 @@
 
 </head>
 
-<body class="section-white">
+<body>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=397164254038620';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+	<class="section-white">
 
 	<nav class="navbar navbar-white navbar-fixed-top" id="sectionsNav">
     	<div class="container">
@@ -74,22 +86,22 @@
 								</a>
 								<ul class="dropdown-menu dropdown-with-icons">
 									<li>
-										<a href="toujours-plus-vite/ep-1.html">
+										<a href="#">
 											<i class="material-icons">list</i> Episode 1
 										</a>
 									</li>
 									<li>
-										<a href="toujours-plus-vite/ep-2.html">
+										<a href="#">
 											<i class="material-icons">list</i> Episode 2
 										</a>
 									</li>
 									<li>
-										<a href="toujours-plus-vite/ep-3.html">
+										<a href="#">
 											<i class="material-icons">list</i> Episode 3
 										</a>
 									</li>
 									<li>
-										<a href="toujours-plus-vite/ep-4.html">
+										<a href="#">
 											<i class="material-icons">list</i> Episode 4
 										</a>
 									</li>
@@ -154,12 +166,9 @@
 						</div>
 
 						<div class="blog-tags">
-							<a href="#pablo" class="btn btn-twitter btn-round pull-right">
-								<i class="fa fa-twitter"></i>
-							</a>
-							<a href="#pablo" class="btn btn-facebook btn-round pull-right">
-								<i class="fa fa-facebook-square"></i>
-							</a>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffierdemonsport.ca%2Ftoujours-plus-vite%2Fep-1&width=74&layout=button_count&action=like&size=large&show_faces=true&share=false&height=21&appId=397164254038620" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+							<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ffierdemonsport.ca%2Ftoujours-plus-vite%2Fep-1.html&layout=button_count&size=large&mobile_iframe=true&appId=397164254038620&width=84&height=28" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
 						</div>
 
 						<h6 class="category text-danger">TOUJOURS PLUS VITE / ALWAYS FASTER</h6>
@@ -212,6 +221,7 @@
 	</div>
 	</div>
 
+
 	<div class="team-4 section-warning">
 		<div class="container">
 
@@ -220,7 +230,7 @@
 <h1 class="title-white">Toujours plus vite / Always faster</h1>
 					<h5 class="text-white">Un accès privilégié sur la préparation de l’équipe canadienne de patinage de vitesse courte piste en vue des jeux Olympiques de PyeonChang en février et des championnats du monde qui auront lieu à Montréal en mars 2018. <br><br>A privileged insight of the Canadian short track speed skating team members throughout their PyeongChang Olympics quest and during the Montreal world championship later on in 2018.
 </h5>
-					<br />
+					<br/>
 					<a href="../contact.html" class="btn btn-danger btn-round">
 	<i class="material-icons">person</i> contact
 </a>
