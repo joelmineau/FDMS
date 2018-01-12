@@ -33,7 +33,28 @@
 
 </head>
 
-<body class="section-white">
+<body>
+
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '397164254038620',
+      xfbml      : true,
+      version    : 'v2.11'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+  <class="section-white">
 
 	<nav class="navbar navbar-white navbar-fixed-top" id="sectionsNav">
     	<div class="container">
@@ -160,7 +181,7 @@
 				<h1 class="title-dark">Fier de mon sport / Proud of my sport</h1>
 									<h5 class="text-dark">Fierdemonsport.ca est une plateforme de promotion du sport amateur canadien axée sur la diffusion de web séries mettant en vedette des athlètes d’élite qui représentent le Canada sur la scène internationale. <br><br>Proudofmysport.ca is a website developed as a promotional platform aimed to broadcast web series that reveals the way of life and preparation of Canadian elite representatives on the world stages.
 				</h5>
-									
+
 				</div>
 				</div>
 						</div>
