@@ -5741,7 +5741,6 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .section-image {
-  position: relative;
   height: 100%;
 }
 .section-image:after {
